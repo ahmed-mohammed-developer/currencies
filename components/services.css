@@ -21,6 +21,7 @@
    margin-bottom: 0;
    text-align: center;
    color: var(--text-p);
+   font-size: 14px;
 }
 
 .services .box-services {
@@ -72,6 +73,7 @@
    margin-bottom: 1.5rem;
    color: var(--text-p);
    line-height: 1.5;
+   font-size: 14px;
 }
 
 .box-services .box-serv a {
