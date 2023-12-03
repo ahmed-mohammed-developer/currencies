@@ -48,12 +48,7 @@
                grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
          }
       }
-      @media screen and (max-width: 848px) {
-         .section .box-main{
-               grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-         }
-      }
-      @media screen and (max-width: 850px) {
+      @media screen and (max-width: 880px) {
          .section .box-main{
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       }
@@ -67,11 +62,6 @@
          .section .box-main{
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
-      }
-      @media screen and (max-width: 300px) {
-         .section .box-main{
-               grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-         }
       }
 
  /* End section */
