@@ -7,9 +7,10 @@
 }
 
 .customers .customer {
-   display: flex;
-   justify-content: space-between;
- }
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 20px;
+}
 .customers .customer-box {
    display: flex;
    flex-direction: column;
@@ -66,6 +67,17 @@
    margin-bottom: 1rem;
    font-size: 14px;
    color: #00204a;
+}
 
+@media screen and (max-width: 425px) {
+   .customers .customer{
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+}
+
+@media screen and (max-width: 325px) {
+   .customers .customer{
+         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   }
 }
 

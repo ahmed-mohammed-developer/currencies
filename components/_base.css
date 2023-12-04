@@ -9,10 +9,28 @@
    --text-p: #0c0c0c;
    --text-p2:  #fefefe;
 }
+html {
+   scroll-behavior: smooth;
+}
 body {
    font-family: 'Roboto', sans-serif;
 }
 
 input, textarea, button, select {
    font: inherit;
+}
+
+::selection {
+   background: var(--text-coler);
+   color: #fff;
+}
+
+.scroller {
+   position: fixed;
+   background-color: var(--text-coler);
+   width: 0;
+   height: 4px;
+   top: 0;
+   left: 0;
+   z-index: 99999;
 }
